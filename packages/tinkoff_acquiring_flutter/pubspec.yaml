@@ -14,7 +14,11 @@ dependencies:
     sdk: flutter
   flutter_localizations:
     sdk: flutter
-  tinkoff_acquiring: ^3.0.11
+  tinkoff_acquiring:
+    git:
+      url: https://github.com/kodefabrique/Tinkoff-Acquiring-SDK-Flutter.git
+      ref: dev
+      path: packages/tinkoff_acquiring
   webview_flutter: ^4.2.1
 
 dev_dependencies:
